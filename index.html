@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital CV</title>
+    <style>
+        body {
+            margin: 40px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         .container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+            .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;            
+        }
+        
+        .header .info h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .header .info p {
+            margin: 5px 0;
+        }
+        .header .info strong {
+            display: inline-block;
+            width: 100px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            background-color: #f5e6c8;
+        }
+        .section {
+            padding: 40px;            
+            margin-top: 20px;
+        }
+        .section h2 {
+            border-bottom:1px solid black;
+            padding-bottom: 5px;
+        }
+        .education table, .experience table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .education th, .education td{
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .education th{
+            text-align: left;
+        }
+        .education td:nth-child(1) {
+            width: 30%;
+        }
+        .education td:nth-child(2) {
+            width: 80%;
+        }
+        .experience table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .experience th, .experience td{
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .experience th{
+            text-align: left;
+        }
+        .experience td:nth-child(1) {
+            width: 30%;
+        }
+        .experience td:nth-child(2) {
+            width: 80%;
+        }
+        .skills table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .skills th, .skills td {
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .activity table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .activity th, .activity td {
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .certificate table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .certificate th, .certificate td {
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <div class="info">
+            <h1>Nguyễn Thị Thanh Trà</h1>               
+                    <b>Ngày sinh: </b>18/08/2005</p>
+                    <b>Giới tính: </b>Nữ</p>
+                    <b>Địa chỉ: </b>Đà Nẵng, Việt Nam</p>
+                    <b>Email: </b> <a href="mailto:nguyenthithanhtra1808@gmail.com">nguyenthithanhtra1808@gmail.com</a></p>
+                    <b>Phone: </b> (+84)9354xxxx</p>   
+                  </div>
+                <img src="path_to_image" alt="Avatar">
+            </div>
+        </div>
+        <div class="section">
+            <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
+                <p>EM mong muốn được làm việc ở vị trí .... để có thể vận dụng những kiến thức đã được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất công việc được giao</p>
+            </div>
+        </div>
+        <div class="section education">
+            <h2>HỌC VẤN</h2>
+            <table>
+                <tr>
+                    <td>..../202.. - .../202...</td>
+                    <td>
+                        <strong>......</strong>
+                        <p>Tốt nghiệp..........                          </p>
+                        <p>GPA: .../10</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>..../202.. - .../202..</td>
+                    <td>
+                        <strong>Cử nhân - ĐH FPT</strong>
+                        <p>Chuyên ngành: Kỹ thuật phần mềm.<p>
+                        <p>GPA: ...../4</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <div class="section experience">
+            <h2>KINH NGHIỆM LÀM VIỆC</h2>
+            <table>
+                 <tr>
+                     <td>..../202... - .../202...</td>
+                     <td>
+                     <strong>Công Ty X</strong><br>
+                     <p>Vị trí:......</p>
+                     <p>- .......</p>
+                     <p>- .......</p>
+                     <p>- .......</p>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>..../202.... - Hiện tại</td>
+                     <td>
+                     <strong>Công Ty Y</strong>
+                        <p>Vị trí:.......</p>
+                        <p>-........</p>
+                        <p>-........</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+      </div>
+        <div class="section skills">
+            <h2>KỸ NĂNG</h2>
+            <table>
+                <tr>    
+                    <td>HTML/CSS</td>
+                    <td>
+                       <p>........</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>JavaScript</td>
+                    <td>
+                      <p>........</p>
+                    </td>
+                    </tr>
+                    <tr>                      
+                    <td>Python</td>
+                    <td>
+                      <p>........</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Node.js</td>
+                    <td>
+                      <p>........</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>PHP</td>
+                    <td>
+                      <p>........</p>
+                </td>
+            </tr>
+           </table>
+        </div>
+     </div>
+        <div class="section activity">
+            <h2>Hoạt động</h2>
+            <table>
+              <tr>
+                 <td>.../202.. -.../202...</td>
+                 <td>
+                    <strong>.......</strong>
+                    <p>Thành tích:.....</p>
+                    <p>Đề tài:......</p>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td>..../202...</td>
+                 <td>
+                    <strong>.........</strong>
+                    <p> Vị trí tham gia:......</p>
+                    <p> Nhiệm vụ:......</p>
+                 </td>
+                 </tr>
+                <table>
+            </div>
+        </div>
+        <div class="section certificate">
+            <h2>Chứng chỉ - Giải thưởng</h2>
+            <table>
+                <tr>
+                    <td>2023</td>
+                <td>
+                    <p>Chứng chỉ tin học Microsoft Office Specialist MOS</p>
+                </td>
+                </tr>
+                <tr>
+                <td>2024</p>
+                <td> 
+                   <p>Chứng chỉ TOEIC</p>
+                </td>
+                </tr>
+            </table>
+            </div>           
+         <div>
+        <div class="section hobby">
+            <h2>SỞ THÍCH</h2>
+            <ul>
+                <li>Đọc sách</li>
+                <li>Âm nhạc</li>
+                <li>Đi du lịch</li>
+                <li>Làm đồ thủ công</li>
+            </ul>
+        </div>
+        <div class="section project">
+            <h2>DỰ ÁN CÁ NHÂN</h2>
+            <strong>TRANG WEB.....</strong>
+            <p>2022</p>
+            <ul>
+                <li>Vị trí:</li>
+                <li>Mô tả:</li>
+                <li>Nhiệm vụ:</li>
+                <li>Công nghệ:</li>
+            </ul>
+            <strong>TRANG WEB....</strong>
+            <p>2022</p>
+            <ul>
+                <li>Vị trí:</li>
+                <li>Mô tả:</li>
+                <li>Nhiệm vụ:</li>
+                <li>Công nghệ:</li>
+            </ul>
+            <strong>TRANG WEB.....</strong>
+            <p>2023</p>
+            <ul>
+                <li>Vị trí:</li>
+                <li>Mô tả:</li>
+                <li>Nhiệm vụ:</li>
+                <li>Công nghệ:</li>
+            </ul>
+        </div>
+    <div class="section contact">
+        <h2>LIÊN HỆ</h2>
+        <ul>
+            <li>Github: </li> 
+            <li>Facebook:</li>
+            <li>Linkedin:</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
+
